@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View, Alert, Image, TouchableOpacity } from 'react-native';
-import { AiOutlineHeart, AiOutlineStar, AiOutlineCaretDown } from 'react-icons/ai'
-import Menu from './Menu';
+import { Button, StyleSheet, Text, View, Alert, Image,TouchableOpacity } from 'react-native';
+import { AiOutlineHeart, AiOutlineStar, AiOutlineCaretDown } from 'react-icons/ai';
 
 export default function Discovery() {
     return (
@@ -16,7 +15,7 @@ export default function Discovery() {
 
                     <TouchableOpacity
                         style={styles.filter}
-                        onPress={() => Alert.alert('Liker')}
+                        onPress={() => Alert.alert('Filtrer')}
                     >
                         <Text style={styles.innerText}>FILTRER<AiOutlineCaretDown /></Text>
                     </TouchableOpacity>
@@ -79,7 +78,6 @@ export default function Discovery() {
                 </View>
             </View>
 
-            <Menu />
         </View>
 
     );

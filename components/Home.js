@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Button, StyleSheet, View, Alert, ImageBackground, Image} from 'react-native';
+import { Button, StyleSheet, SafeAreaView, ScrollView, View, Alert, ImageBackground, Image} from 'react-native';
 
 
 export default function Home() {
@@ -43,8 +43,8 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: '90vw',
-    height: '160vw',
+   width: '20vw',
+    height: '60vw',
   },
   
   buttonContainer: {
